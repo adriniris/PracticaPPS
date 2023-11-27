@@ -14,14 +14,12 @@ def serieFibonacci():
             numero1 = numero2 # Igualamos el primer valor al segundo valor
             numero2 = suma # Igualamos el segundo valor a la suma
             listaNum.append(suma)
-        print(listaNum)
 
 
 def extraerNum(indice): # Extraemos el numero de la lista para comprobarlo en el test
     if (indice < 0):
         return("No existe ese valor")
     else:
-        print(listaNum[indice])
         return listaNum[indice]
 
 
